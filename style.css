@@ -1,0 +1,170 @@
+#Home{
+     background-color: #F8F0E5;
+     height: 100vh;
+}
+
+#About{
+    background-color: #FFE5E5;
+    font-family: Kaushan Script;
+    font-size: 20px;
+    text-align: center;
+    color: #183D3D;
+    height: 100vh;
+}
+
+#Skills{
+    background-color: #F8F0E5;
+    text-align: left;
+    font-family: kaushan script;
+    color: #102C57;
+    height: 100vh;
+}
+
+#Projects{
+    background-color: #FFE5E5 ;
+    padding-top: 60px;
+    font-family: kaushan script;
+}
+
+#Contact{
+    background-color: #F8F0E5;
+    margin-bottom: 0;
+    font-family: kaushan script;
+
+}
+.about{
+    padding-top: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 30px;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #FFBFBF;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    }
+.nav-item a{
+    color: #183D3D;
+    padding : 0 25px 0 25px;
+
+}
+.container {
+    /* remember to set a width */
+    margin-right: auto;
+    margin-left: auto;
+}
+.top{
+    font-family: Sacramento;
+    height: 60px;
+    font-size: 40px;
+}
+
+.middle{
+    color: #102C57;
+    font-family: kaushan script;
+    text-align: center;
+    padding-top: 30px;
+}
+
+h1{
+    font-size: 140px;
+    padding:20px
+
+}
+
+.container.bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 200px;
+    width: 100vw;
+    padding-bottom: 0;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+.about > img {
+    border-radius: 50%;
+    border: 8px solid #3F2E3E;
+}
+
+.display-5{
+    text-align: left;
+}
+
+.lead{
+    text-align: left;
+    color: #3F1D38;
+}
+
+.project{
+    font-family: kaushan script;
+    font-size: 60px;
+    font-weight: 900;
+    color: #183D3D;
+    padding-bottom: 32px;
+}
+
+.btn:hover{
+    background-color: #3F2E3E;
+    color: #EFE1D1;
+
+}
+
+.p-3 > img{
+    border-radius: 5%;
+    border: 5px double #183D3D ;
+
+}
+
+.col-4{
+    border: 5px double #FFDDCC ;
+    border-radius: 5%;
+    width: 300px;
+    height: 400px;
+    margin: 30px;
+    padding: 0;
+    background-color: #FFCCCC;
+}
+
+img > p{
+    color: #183D3D;
+}
+
+.contact{
+    font-size: 40px;
+    color: #183D3D;
+    padding: 10px;
+}
+
+.pic{
+    float: right;
+    height: 300px;
+    width: 300px;
+}
+
+
+.footer {
+  background-color: #FFBFBF;
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  height: 52px;
+  font-size: 20px;
+  color: black;
+  padding-top: 10px;
+
+}
+
+.logo{
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+}
